@@ -1,0 +1,36 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+    height: 36px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1F75EE;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00BFFF;
+    color: black;
+}
+
+p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #888;
+    cursor: pointer;
+}
+
+p:hover{
+    color: #1F75EE;
+}
